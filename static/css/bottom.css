@@ -1,0 +1,9 @@
+.bottom{
+    background-color: black;
+    font-family: 'Merriweather', serif;
+}
+.bottom a{
+    font-size: 35px;
+    color:white;
+    padding:14px 35px;
+}
