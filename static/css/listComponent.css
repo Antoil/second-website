@@ -1,0 +1,6 @@
+.listComponent li{
+    display: block;
+}
+.listComponent ol{
+    list-style: none;
+}

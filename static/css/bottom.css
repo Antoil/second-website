@@ -1,9 +1,30 @@
-.bottom{
-    background-color: black;
+.button:link,
+.button:hover,
+.button:visited,
+.button:active{
+    text-decoration: none;
+}
+.button{
+    color: #FFF;
+    background-color: #000;
+    font-size: 35px;
+    padding: 14px 33px;
+    line-height: 50px;
+    margin-top: 35px;
+    margin-bottom: 119px;
+    position: relative;
     font-family: 'Merriweather', serif;
 }
-.bottom a{
-    font-size: 35px;
-    color:white;
-    padding:14px 35px;
+
+.button::after{
+    content: "";
+    width: 28px;
+    height: 34px;
+    display: block;
+    background-image: url("../img/arrow.svg");
+    background-size: 28px 34px;
+    position: absolute;
+    right: 31px;
+    top: 50%;
+    transform: translateY(-50%)
 }
