@@ -8,3 +8,25 @@
 .listComponent ol{
     list-style: none;
 }
+
+.listComponent a{
+    color: red;
+}
+
+.listComponent p{
+    color: #707070;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.listComponent h2{
+    color: #707070;
+    font-family: Merriweather;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
